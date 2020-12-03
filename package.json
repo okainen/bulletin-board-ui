@@ -5,9 +5,9 @@
   "homepage": "https://okainen.github.io/notes-ui",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --watch --config webpack.dev.js",
+    "start": "node server.js",
+    "dev": "webpack-dev-server --watch --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d .dist"
   },
   "repository": {
@@ -26,6 +26,7 @@
     "@material-ui/pickers": "^3.2.10",
     "@material-ui/styles": "^4.10.0",
     "axios": "^0.19.2",
+    "express": "^4.17.1",
     "history": "^5.0.0",
     "immutable": "^4.0.0-rc.12",
     "notistack": "^0.9.17",
