@@ -1,12 +1,11 @@
-import { connect } from 'react-redux';
-import { signOut } from '../../../data/redux/user/actions';
-import NavBar from './NavBar';
-
+import {connect} from 'react-redux';
+import {signOut} from '../../../data/redux/user/actions';
+import Navbar from './Navbar';
 
 const mapStateToProps = null;
 
 const mapDispatchToProps = {
-    signOut
+  signOut
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(NavBar);
+export default connect(mapStateToProps, mapDispatchToProps)(Navbar);
