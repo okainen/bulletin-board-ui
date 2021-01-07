@@ -1,10 +1,7 @@
 {
-  "presets": [
-    "@babel/env",
-    "@babel/react"
-  ],
+  "presets": ["@babel/env", "@babel/react"],
   "plugins": [
-    "emotion",
+    "@emotion",
     "@babel/transform-arrow-functions",
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-proposal-throw-expressions"
